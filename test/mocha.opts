@@ -1,0 +1,6 @@
+--reporter dot
+--compilers coffee:coffee-script
+--recursive
+-c
+-r ./test/test-helper.js
+-t 5000

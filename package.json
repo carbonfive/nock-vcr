@@ -1,0 +1,29 @@
+{
+  "name": "nock-vcr",
+  "version": "0.0.0",
+  "description": "Automate the recording and play-back of HTTP requests with the nock framework.",
+  "main": "lib/nock-vcr.js",
+  "scripts": {
+    "test": "cake test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/carbonfive/nock-vcr.git"
+  },
+  "keywords": [
+    "mock",
+    "http",
+    "vcr"
+  ],
+  "author": "Rudy Jahchan <rudy@carbonfive.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies" : {
+    "nock" : "git://github.com/rudyjahchan/nock.git"
+  },
+  "devDependencies" : {
+    "coffee-script": "1.4.x",
+    "mocha": "1.x",
+    "chai": "1.4.x"
+  }
+}
